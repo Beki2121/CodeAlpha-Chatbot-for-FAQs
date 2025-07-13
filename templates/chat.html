@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Chatbot</title>
+    <link rel="stylesheet" href="/static/chatbot.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>🤖 FAQ Chatbot</h2>
+            <p>Ask me anything about our services!</p>
+        </div>
+        
+        <div class="messages" id="messages">
+            <div class="message bot">
+                Hello! I'm here to help you with any questions. What would you like to know?
+            </div>
+        </div>
+        
+        <div class="input-section">
+            <form id="chat-form" class="input-row" autocomplete="off">
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Type your question..." required />
+                </div>
+                <button type="button" id="voice-btn" class="voice-btn" title="Voice Input">🎤</button>
+                <button type="submit" id="send-btn" class="send-btn" title="Send">➤</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+        const messages = document.getElementById('messages');
+        const voiceBtn = document.getElementById('voice-btn');
+        const sendBtn = document.getElementById('send-btn');
+        
+        let mediaRecorder;
+        let audioChunks = [];
+        let isRecording = false;
+        let audioStream = null;
+
+        function addMessage(text, sender, confidence = null, suggestions = []) {
+            const div = document.createElement('div');
+            div.className = 'message ' + sender;
+            if (sender === 'bot') {
+                let html = text
+                    .replace(/<a href="mailto:([^\"]+)"[^>]*>([^<]+)<\/a>/gi, '<button class="response-btn" onclick="window.open(\'mailto:$1\')">📧 $2</button>')
+                    .replace(/<a href="tel:([^\"]+)"[^>]*>([^<]+)<\/a>/gi, '<button class="response-btn" onclick="window.open(\'tel:$1\')">📞 $2</button>')
+                    // For /#section links, convert to https://bekitech.com/#section
+                    .replace(/<a [^>]*href=["']\/#([a-zA-Z0-9_-]+)["'][^>]*>.*?<\/a>/gi, function(match, section) {
+                        const sectionName = section.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                        return `<button class=\"response-btn\" onclick=\"window.open('https://bekitech.com/#${section}', '_blank')\">🔗 ${sectionName}</button>`;
+                    })
+                    // For any bekiTech.com .html page, convert to https://bekitech.com/#section
+                    .replace(/<a [^>]*href=["']https:\/\/bekitech\.com\/([a-zA-Z0-9_-]+)\.html[^"']*["'][^>]*>.*?<\/a>/gi, function(match, page) {
+                        const section = page.toLowerCase();
+                        const sectionName = section.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                        return `<button class=\"response-btn\" onclick=\"window.open('https://bekitech.com/#${section}', '_blank')\">🔗 ${sectionName}</button>`;
+                    })
+                    // Remove any remaining anchor tags
+                    .replace(/<a [^>]+>([^<]+)<\/a>/gi, '$1');
+                div.innerHTML = html;
+            } else {
+                div.textContent = text;
+            }
+            
+            if (confidence !== null && sender === 'bot') {
+                const confidenceDiv = document.createElement('div');
+                confidenceDiv.className = 'confidence';
+                confidenceDiv.textContent = `Confidence: ${(confidence * 100).toFixed(1)}%`;
+                div.appendChild(confidenceDiv);
+            }
+            
+            // Add audio button for bot answers
+            if (sender === 'bot') {
+                const audioBtn = document.createElement('button');
+                audioBtn.className = 'audio-btn';
+                audioBtn.setAttribute('aria-label', 'Read answer aloud');
+                audioBtn.title = 'Read answer aloud';
+                audioBtn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>`;
+                audioBtn.onclick = () => textToSpeech(text.replace(/<[^>]+>/g, ''));
+                div.appendChild(audioBtn);
+            }
+            
+            messages.appendChild(div);
+            
+            // Add suggestions if available
+            if (suggestions.length > 0) {
+                const suggestionsDiv = document.createElement('div');
+                suggestionsDiv.className = 'suggestions';
+                suggestions.forEach(suggestion => {
+                    const btn = document.createElement('button');
+                    btn.className = 'suggestion';
+                    btn.textContent = suggestion;
+                    btn.onclick = () => {
+                        userInput.value = suggestion;
+                        sendMessage();
+                    };
+                    suggestionsDiv.appendChild(btn);
+                });
+                div.appendChild(suggestionsDiv);
+            }
+            
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function sendMessage() {
+            const text = userInput.value.trim();
+            if (!text) return;
+            
+            addMessage(text, 'user');
+            userInput.value = '';
+            sendBtn.disabled = true;
+            
+            // Show typing indicator
+            const typingDiv = document.createElement('div');
+            typingDiv.className = 'typing-indicator';
+            typingDiv.innerHTML = '<span class="loading"></span> Thinking...';
+            messages.appendChild(typingDiv);
+            messages.scrollTop = messages.scrollHeight;
+            
+            fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: text })
+            })
+            .then(res => res.json())
+            .then(data => {
+                messages.removeChild(typingDiv);
+                addMessage(data.answer, 'bot', data.confidence, data.suggestions);
+                
+                // Convert to speech if available
+                if (data.answer && !data.answer.includes("Sorry, I don't have an answer")) {
+                    // textToSpeech(data.answer); // Removed automatic TTS
+                }
+            })
+            .catch(() => {
+                messages.removeChild(typingDiv);
+                addMessage('Error: Could not get response.', 'bot');
+            })
+            .finally(() => {
+                sendBtn.disabled = false;
+            });
+        }
+
+        // Voice input functionality
+        async function startVoiceRecording() {
+            try {
+                audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                mediaRecorder = new MediaRecorder(audioStream);
+                audioChunks = [];
+                
+                mediaRecorder.ondataavailable = (event) => {
+                    audioChunks.push(event.data);
+                };
+                
+                mediaRecorder.onstop = async () => {
+                    // Stop all tracks to release the microphone
+                    if (audioStream) {
+                        audioStream.getTracks().forEach(track => track.stop());
+                        audioStream = null;
+                    }
+                    const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    const formData = new FormData();
+                    formData.append('audio', audioBlob);
+                    
+                    try {
+                        const response = await fetch('/voice-input', {
+                            method: 'POST',
+                            body: formData
+                        });
+                        const data = await response.json();
+                        
+                        if (data.success) {
+                            userInput.value = data.text;
+                            sendMessage();
+                        } else {
+                            addMessage('Sorry, I could not understand your voice input.', 'bot');
+                        }
+                    } catch (error) {
+                        addMessage('Error processing voice input.', 'bot');
+                    }
+                };
+                
+                mediaRecorder.start();
+                isRecording = true;
+                voiceBtn.classList.add('recording');
+                voiceBtn.textContent = '⏹️';
+            } catch (error) {
+                addMessage('Could not access microphone. Please check permissions.', 'bot');
+            }
+        }
+
+        function stopVoiceRecording() {
+            if (mediaRecorder && isRecording) {
+                mediaRecorder.stop();
+                isRecording = false;
+                voiceBtn.classList.remove('recording');
+                voiceBtn.textContent = '🎤';
+            }
+        }
+
+        // Text to speech functionality
+        async function textToSpeech(text) {
+            try {
+                const response = await fetch('/voice-output', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text: text })
+                });
+                const data = await response.json();
+                
+                if (data.success) {
+                    const audio = new Audio('data:audio/mp3;base64,' + data.audio);
+                    audio.play();
+                }
+            } catch (error) {
+                console.log('Text-to-speech not available');
+            }
+        }
+
+        // Search suggestions
+        let suggestionTimeout;
+        userInput.addEventListener('input', function() {
+            clearTimeout(suggestionTimeout);
+            const query = this.value.trim();
+            
+            if (query.length >= 2) {
+                suggestionTimeout = setTimeout(() => {
+                    fetch('/suggestions', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ query: query })
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        // Could display suggestions here if needed
+                    });
+                }, 300);
+            }
+        });
+
+        // Event listeners
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            sendMessage();
+        });
+
+        voiceBtn.addEventListener('click', function() {
+            if (isRecording) {
+                stopVoiceRecording();
+            } else {
+                startVoiceRecording();
+            }
+        });
+
+        voiceBtn.addEventListener('mousedown', function() {
+            if (!isRecording) {
+                startVoiceRecording();
+            }
+        });
+
+        voiceBtn.addEventListener('mouseup', function() {
+            if (isRecording) {
+                stopVoiceRecording();
+            }
+        });
+
+        // Mobile touch events for voice button
+        voiceBtn.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            if (!isRecording) {
+                startVoiceRecording();
+            }
+        });
+
+        voiceBtn.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            if (isRecording) {
+                stopVoiceRecording();
+            }
+        });
+    </script>
+</body>
+</html> 

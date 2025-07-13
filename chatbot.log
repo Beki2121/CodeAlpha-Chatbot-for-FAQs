@@ -1,0 +1,963 @@
+2025-07-13 14:03:16,563 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:03:16,564 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:03:25,828 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-13 14:11:23,388 - WARNING - Error while downloading from https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-13 14:11:49,698 - WARNING - Error while downloading from https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-13 14:12:10,188 - WARNING - Error while downloading from https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-13 14:12:58,170 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:12:58,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 14:12:58,258 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 14:12:58,260 - INFO -  * Restarting with stat
+2025-07-13 14:13:09,030 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:13:09,030 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:13:15,459 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:13:15,513 - WARNING -  * Debugger is active!
+2025-07-13 14:13:15,518 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 14:38:19,846 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:38:19,846 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:38:59,808 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:38:59,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 14:38:59,929 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 14:38:59,931 - INFO -  * Restarting with stat
+2025-07-13 14:39:10,305 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:39:10,306 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:39:18,524 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:39:18,614 - WARNING -  * Debugger is active!
+2025-07-13 14:39:18,621 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 14:56:12,969 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:56:12,970 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:56:22,623 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:56:22,847 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 14:56:22,849 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 14:56:22,854 - INFO -  * Restarting with stat
+2025-07-13 14:56:44,898 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:56:44,898 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:56:48,482 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:56:48,483 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:56:54,087 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:56:54,279 - WARNING -  * Debugger is active!
+2025-07-13 14:56:54,291 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 14:56:57,072 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:56:57,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 14:56:57,213 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 14:56:57,217 - INFO -  * Restarting with stat
+2025-07-13 14:56:57,235 - INFO - 127.0.0.1 - - [13/Jul/2025 14:56:57] "GET / HTTP/1.1" 200 -
+2025-07-13 14:57:00,033 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:57:00,045 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:57:05,619 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:05] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 14:57:07,681 - INFO - User question: hi
+2025-07-13 14:57:07,793 - INFO - Best match: Do you offer international shipping? (similarity: 0.174)
+2025-07-13 14:57:07,794 - INFO - No good match found
+2025-07-13 14:57:07,795 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:07] "POST /chat HTTP/1.1" 200 -
+2025-07-13 14:57:09,417 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:57:09,575 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 14:57:09,576 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 14:57:09,581 - INFO -  * Restarting with stat
+2025-07-13 14:57:20,683 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:57:20,684 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:57:23,859 - INFO - User question: Do you offer international shipping?
+2025-07-13 14:57:23,970 - INFO - Best match: Do you offer international shipping? (similarity: 1.000)
+2025-07-13 14:57:24,053 - INFO - Answered with: Yes, we ship to most countries worldwide. Shipping fees may apply.
+2025-07-13 14:57:24,056 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:24] "POST /chat HTTP/1.1" 200 -
+2025-07-13 14:57:26,419 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:26] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 14:57:26,499 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 14:57:30,066 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:57:30,161 - WARNING -  * Debugger is active!
+2025-07-13 14:57:30,168 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 14:57:33,083 - INFO - Use pytorch device_name: cpu
+2025-07-13 14:57:33,084 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:57:42,050 - INFO - Loaded 4 FAQs from JSON file
+2025-07-13 14:57:42,380 - WARNING -  * Debugger is active!
+2025-07-13 14:57:42,406 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 14:57:54,429 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:54] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 14:57:56,179 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:56] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 14:57:56,776 - INFO - User question: password
+2025-07-13 14:57:56,857 - INFO - Best match: How can I contact customer support? (similarity: 0.224)
+2025-07-13 14:57:56,858 - INFO - No good match found
+2025-07-13 14:57:56,859 - INFO - 127.0.0.1 - - [13/Jul/2025 14:57:56] "POST /chat HTTP/1.1" 200 -
+2025-07-13 14:58:34,931 - INFO - 127.0.0.1 - - [13/Jul/2025 14:58:34] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 14:58:36,620 - INFO - User question: contact customer
+2025-07-13 14:58:36,830 - INFO - Best match: How can I contact customer support? (similarity: 0.762)
+2025-07-13 14:58:36,858 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 14:58:36,861 - INFO - 127.0.0.1 - - [13/Jul/2025 14:58:36] "POST /chat HTTP/1.1" 200 -
+2025-07-13 14:58:42,431 - INFO - 127.0.0.1 - - [13/Jul/2025 14:58:42] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 15:04:33,317 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:04:33,318 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:04:35,287 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:35] "GET / HTTP/1.1" 200 -
+2025-07-13 15:04:44,229 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:04:44,229 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:04:47,043 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:47,502 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:47,933 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:48,461 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:48] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:49,413 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:49] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:49,755 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:49] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:50,359 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:50] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:50,685 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:50] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:51,031 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:51] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:51,822 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:51] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:52,161 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:04:52,179 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:52] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:52,336 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:04:52,683 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:04:52,684 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:04:52,691 - INFO -  * Restarting with stat
+2025-07-13 15:04:52,693 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:52] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:52,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:04:52,768 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:04:52,772 - INFO -  * Restarting with stat
+2025-07-13 15:04:53,584 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:53] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:54,308 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:54] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:54,634 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:54] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:55,363 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:55] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:55,703 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:55] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:56,202 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:56] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:56,721 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:56] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:57,716 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:57] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:58,090 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:58] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:58,742 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:58] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:59,336 - INFO - 127.0.0.1 - - [13/Jul/2025 15:04:59] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:04:59,985 - INFO - User question: what are the services you provide
+2025-07-13 15:05:00,045 - INFO - Best match: How can I contact customer support? (similarity: 0.342)
+2025-07-13 15:05:00,078 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:05:00,079 - INFO - 127.0.0.1 - - [13/Jul/2025 15:05:00] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:05:11,378 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:05:11,379 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:05:13,775 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:05:13,775 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:05:17,509 - INFO - 127.0.0.1 - - [13/Jul/2025 15:05:17] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 15:05:17,574 - INFO - 127.0.0.1 - - [13/Jul/2025 15:05:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 15:05:20,023 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:05:20,301 - WARNING -  * Debugger is active!
+2025-07-13 15:05:20,311 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:05:22,578 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:05:22,901 - WARNING -  * Debugger is active!
+2025-07-13 15:05:22,906 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:06:12,959 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:12] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:13,565 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:13] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:13,938 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:13] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:14,499 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:14] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:15,416 - INFO - User question: services
+2025-07-13 15:06:15,474 - INFO - Best match: How can I contact customer support? (similarity: 0.263)
+2025-07-13 15:06:15,475 - INFO - No good match found
+2025-07-13 15:06:15,480 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:15] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:06:25,798 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:25] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:26,158 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:26] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:26,545 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:26] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:26,994 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:26] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:27,354 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:27] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:27,685 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:27] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:28,030 - INFO - User question: contact
+2025-07-13 15:06:28,113 - INFO - Best match: How can I contact customer support? (similarity: 0.522)
+2025-07-13 15:06:28,137 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:06:28,139 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:28] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:06:33,255 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:33] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:33,579 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:33] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:34,415 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:34] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:34,870 - INFO - User question: react
+2025-07-13 15:06:34,906 - INFO - Best match: Do you offer international shipping? (similarity: 0.088)
+2025-07-13 15:06:34,908 - INFO - No good match found
+2025-07-13 15:06:34,909 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:34] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:06:38,442 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:38] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:38,894 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:38] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:39,345 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:39] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:39,672 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:39] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:40,013 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:40] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:40,621 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:40] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:41,585 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:41] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:42,098 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:42] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:42,704 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:42] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:43,118 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:43] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:44,830 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:44] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:45,514 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:45] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:45,885 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:45] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:46,304 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:46] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:47,148 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:47,448 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:47,801 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:48,374 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:48] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:49,644 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:49] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:06:50,093 - INFO - User question: what technologies you use?
+2025-07-13 15:06:50,125 - INFO - Best match: What is your return policy? (similarity: 0.111)
+2025-07-13 15:06:50,126 - INFO - No good match found
+2025-07-13 15:06:50,127 - INFO - 127.0.0.1 - - [13/Jul/2025 15:06:50] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:07:33,210 - INFO - 127.0.0.1 - - [13/Jul/2025 15:07:33] "GET / HTTP/1.1" 200 -
+2025-07-13 15:07:38,360 - INFO - User question: h
+2025-07-13 15:07:38,399 - INFO - Best match: How can I contact customer support? (similarity: 0.103)
+2025-07-13 15:07:38,399 - INFO - No good match found
+2025-07-13 15:07:38,400 - INFO - 127.0.0.1 - - [13/Jul/2025 15:07:38] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:11:40,901 - INFO - 127.0.0.1 - - [13/Jul/2025 15:11:40] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:11:41,302 - INFO - 127.0.0.1 - - [13/Jul/2025 15:11:41] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:11:41,708 - INFO - 127.0.0.1 - - [13/Jul/2025 15:11:41] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:11:42,358 - INFO - 127.0.0.1 - - [13/Jul/2025 15:11:42] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:11:42,765 - INFO - 127.0.0.1 - - [13/Jul/2025 15:11:42] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:11:43,088 - INFO - 127.0.0.1 - - [13/Jul/2025 15:11:43] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:11:43,818 - INFO - User question: service
+2025-07-13 15:11:43,883 - INFO - Best match: How can I contact customer support? (similarity: 0.311)
+2025-07-13 15:11:43,914 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:11:43,920 - INFO - 127.0.0.1 - - [13/Jul/2025 15:11:43] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:12:03,489 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:03] "GET / HTTP/1.1" 200 -
+2025-07-13 15:12:12,355 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:12] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:12,785 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:12] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:13,419 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:13] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:13,842 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:13] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:14,166 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:14] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:14,555 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:14] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:15,252 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:15] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:15,659 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:15] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:15,965 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:15] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:16,308 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:16] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:16,900 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:16] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:17,614 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:17] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:18,193 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:18,534 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:18,969 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:19,670 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:19] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:12:20,440 - INFO - User question: service you provide
+2025-07-13 15:12:20,471 - INFO - Best match: How can I contact customer support? (similarity: 0.403)
+2025-07-13 15:12:20,490 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:12:20,491 - INFO - 127.0.0.1 - - [13/Jul/2025 15:12:20] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:13:17,783 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:17] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:18,184 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:18,782 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:19,191 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:19] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:19,498 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:19] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:20,255 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:20] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:21,864 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:21] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:22,384 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:22] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:22,708 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:22] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:23,051 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:23] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:23,596 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:23] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:24,077 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:24] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:24,604 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:24] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:25,006 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:25] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:25,492 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:25] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:26,112 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:26] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:26,562 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:26] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:26,940 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:26] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:27,342 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:27] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:29,842 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:30,251 - INFO - User question: service you provide
+2025-07-13 15:13:30,284 - INFO - Best match: How can I contact customer support? (similarity: 0.403)
+2025-07-13 15:13:30,304 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:13:30,304 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:30] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:13:50,499 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:50] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:13:51,179 - INFO - User question: What services do you provide?
+2025-07-13 15:13:51,219 - INFO - Best match: How can I contact customer support? (similarity: 0.364)
+2025-07-13 15:13:51,240 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:13:51,244 - INFO - 127.0.0.1 - - [13/Jul/2025 15:13:51] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:14:59,946 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:14:59,946 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:15:09,044 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:15:09,371 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:15:09,372 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:15:09,375 - INFO -  * Restarting with stat
+2025-07-13 15:15:26,341 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:15:26,342 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:15:32,927 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:32] "GET / HTTP/1.1" 200 -
+2025-07-13 15:15:35,364 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:15:35,689 - WARNING -  * Debugger is active!
+2025-07-13 15:15:35,699 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:15:37,496 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:37] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:15:39,311 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:39] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:15:39,947 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:39] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:15:40,600 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:40] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:15:41,468 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:41] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:15:42,018 - INFO - User question: what service you provide?
+2025-07-13 15:15:42,060 - INFO - Best match: How can I contact customer support? (similarity: 0.397)
+2025-07-13 15:15:42,088 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:42] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:15:42,094 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:15:42,095 - INFO - 127.0.0.1 - - [13/Jul/2025 15:15:42] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:20:26,129 - INFO - 127.0.0.1 - - [13/Jul/2025 15:20:26] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 15:20:26,143 - INFO - 127.0.0.1 - - [13/Jul/2025 15:20:26] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 15:20:26,286 - INFO - 127.0.0.1 - - [13/Jul/2025 15:20:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 15:20:35,809 - INFO - 127.0.0.1 - - [13/Jul/2025 15:20:35] "GET / HTTP/1.1" 200 -
+2025-07-13 15:24:25,557 - INFO - User question: service
+2025-07-13 15:24:25,593 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:25] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:24:25,611 - INFO - Best match: How can I contact customer support? (similarity: 0.311)
+2025-07-13 15:24:25,632 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:24:25,634 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:25] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:24:29,554 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:24:30,652 - INFO - User question: services
+2025-07-13 15:24:30,681 - INFO - Best match: How can I contact customer support? (similarity: 0.263)
+2025-07-13 15:24:30,682 - INFO - No good match found
+2025-07-13 15:24:30,683 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:30] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:24:30,802 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:30] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:24:35,152 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:35] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:24:35,647 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:35] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:24:36,565 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:36] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:24:36,667 - INFO - User question: UX/UI
+2025-07-13 15:24:36,701 - INFO - Best match: How do I track my order? (similarity: 0.094)
+2025-07-13 15:24:36,702 - INFO - No good match found
+2025-07-13 15:24:36,703 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:36] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:24:54,288 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:54] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:24:54,727 - INFO - User question: e-commerce
+2025-07-13 15:24:54,773 - INFO - Best match: Do you offer international shipping? (similarity: 0.268)
+2025-07-13 15:24:54,774 - INFO - No good match found
+2025-07-13 15:24:54,775 - INFO - 127.0.0.1 - - [13/Jul/2025 15:24:54] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:25:01,913 - INFO - 127.0.0.1 - - [13/Jul/2025 15:25:01] "GET / HTTP/1.1" 200 -
+2025-07-13 15:25:08,875 - INFO - 127.0.0.1 - - [13/Jul/2025 15:25:08] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:25:09,373 - INFO - User question: e-commerce
+2025-07-13 15:25:09,411 - INFO - Best match: Do you offer international shipping? (similarity: 0.268)
+2025-07-13 15:25:09,412 - INFO - No good match found
+2025-07-13 15:25:09,413 - INFO - 127.0.0.1 - - [13/Jul/2025 15:25:09] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:25:44,169 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:25:44,169 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:25:52,631 - INFO - Loaded 38 FAQs from JSON file
+2025-07-13 15:25:52,875 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:25:52,876 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:25:52,880 - INFO -  * Restarting with stat
+2025-07-13 15:26:11,135 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:26:11,136 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:26:20,158 - INFO - Loaded 38 FAQs from JSON file
+2025-07-13 15:26:20,390 - WARNING -  * Debugger is active!
+2025-07-13 15:26:20,401 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:27:13,848 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:27:13,848 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:27:22,332 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:27:22,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:27:22,637 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:27:22,642 - INFO -  * Restarting with stat
+2025-07-13 15:27:30,858 - INFO - 127.0.0.1 - - [13/Jul/2025 15:27:30] "GET / HTTP/1.1" 200 -
+2025-07-13 15:27:41,120 - INFO - 127.0.0.1 - - [13/Jul/2025 15:27:41] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:27:41,478 - INFO - 127.0.0.1 - - [13/Jul/2025 15:27:41] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:27:41,822 - INFO - 127.0.0.1 - - [13/Jul/2025 15:27:41] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:27:42,338 - INFO - 127.0.0.1 - - [13/Jul/2025 15:27:42] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:27:42,691 - INFO - User question: service
+2025-07-13 15:27:42,734 - INFO - Best match: How can I contact customer support? (similarity: 0.311)
+2025-07-13 15:27:42,756 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:27:42,757 - INFO - 127.0.0.1 - - [13/Jul/2025 15:27:42] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:27:46,216 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:27:46,223 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:27:55,146 - INFO - Loaded 40 FAQs from JSON file
+2025-07-13 15:27:55,633 - WARNING -  * Debugger is active!
+2025-07-13 15:27:55,641 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:29:54,727 - INFO - 127.0.0.1 - - [13/Jul/2025 15:29:54] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:29:54,768 - INFO - User question: contact
+2025-07-13 15:29:54,806 - INFO - Best match: How can I contact customer support? (similarity: 0.522)
+2025-07-13 15:29:54,829 - INFO - Answered with: You can contact our customer support via email at support@example.com or call us at 123-456-7890.
+2025-07-13 15:29:54,830 - INFO - 127.0.0.1 - - [13/Jul/2025 15:29:54] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:34:06,270 - INFO - 127.0.0.1 - - [13/Jul/2025 15:34:06] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:34:07,505 - INFO - 127.0.0.1 - - [13/Jul/2025 15:34:07] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:34:07,679 - INFO - User question: services
+2025-07-13 15:34:07,715 - INFO - Best match: How can I contact customer support? (similarity: 0.263)
+2025-07-13 15:34:07,717 - INFO - No good match found
+2025-07-13 15:34:07,718 - INFO - 127.0.0.1 - - [13/Jul/2025 15:34:07] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:34:11,695 - INFO - 127.0.0.1 - - [13/Jul/2025 15:34:11] "GET / HTTP/1.1" 200 -
+2025-07-13 15:34:37,400 - INFO - 127.0.0.1 - - [13/Jul/2025 15:34:37] "GET / HTTP/1.1" 200 -
+2025-07-13 15:34:40,115 - INFO - 127.0.0.1 - - [13/Jul/2025 15:34:40] "GET / HTTP/1.1" 200 -
+2025-07-13 15:35:26,610 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:35:26,610 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:35:40,473 - INFO - Loaded 38 FAQs from JSON file
+2025-07-13 15:35:41,027 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:35:41,027 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:35:41,031 - INFO -  * Restarting with stat
+2025-07-13 15:36:23,905 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:36:23,906 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:36:37,108 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 15:36:37,573 - WARNING -  * Debugger is active!
+2025-07-13 15:36:37,580 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:36:39,862 - INFO - 127.0.0.1 - - [13/Jul/2025 15:36:39] "GET / HTTP/1.1" 200 -
+2025-07-13 15:36:39,873 - INFO - 127.0.0.1 - - [13/Jul/2025 15:36:39] "GET / HTTP/1.1" 200 -
+2025-07-13 15:37:00,318 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:00] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:00,631 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:00] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:01,349 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:01] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:01,924 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:01] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:02,251 - INFO - User question: services
+2025-07-13 15:37:02,306 - INFO - Best match: services (similarity: 1.000)
+2025-07-13 15:37:02,358 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See https://bekitech.com/services.
+2025-07-13 15:37:02,360 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:02] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:37:02,367 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:02] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:25,749 - INFO - User question: Can you give me a detailed overview of all the services BekiTech offers for businesses looking to build digital products?
+2025-07-13 15:37:25,887 - INFO - Best match: Can you give me a detailed overview of all the services BekiTech offers for businesses looking to build digital products? (similarity: 1.000)
+2025-07-13 15:37:25,960 - INFO - Answered with: BekiTech provides end-to-end software solutions including web development, mobile app development, UI/UX design, cloud services, and digital transformation consulting. We specialize in building scalable, secure, and innovative digital products for businesses of all sizes.
+2025-07-13 15:37:25,961 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:25] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:37:48,317 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:48] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:48,836 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:48] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:54,717 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:54] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:56,322 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:56] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:57,958 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:57] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:58,557 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:58] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:37:59,757 - INFO - User question: how much does it cost
+2025-07-13 15:37:59,802 - INFO - Best match: cost (similarity: 0.818)
+2025-07-13 15:37:59,832 - INFO - Answered with: Project cost varies by scope and features. Get a free estimate at https://bekitech.com/contact.
+2025-07-13 15:37:59,833 - INFO - 127.0.0.1 - - [13/Jul/2025 15:37:59] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:38:41,201 - INFO - 127.0.0.1 - - [13/Jul/2025 15:38:41] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 15:38:41,315 - INFO - 127.0.0.1 - - [13/Jul/2025 15:38:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 15:38:52,508 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 15:38:54,997 - INFO -  * Restarting with stat
+2025-07-13 15:39:15,267 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:39:15,268 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:39:27,990 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 15:39:28,364 - WARNING -  * Debugger is active!
+2025-07-13 15:39:28,369 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:39:29,634 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:39:29,638 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:39:29,643 - INFO - User question: contact
+2025-07-13 15:39:29,662 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:29] "GET / HTTP/1.1" 200 -
+2025-07-13 15:39:29,728 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 15:39:29,755 - INFO - Answered with: Reach us at info@bekitech.com, call +91-9876543210, or use the contact form at https://bekitech.com/contact.
+2025-07-13 15:39:29,756 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:29] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:39:34,968 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:34] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:39:35,341 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:35] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:39:35,790 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:35] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:39:35,988 - INFO - User question: price
+2025-07-13 15:39:36,022 - INFO - Best match: price (similarity: 1.000)
+2025-07-13 15:39:36,038 - INFO - Answered with: Pricing is project-based. For a detailed quote, please contact us at info@bekitech.com or visit https://bekitech.com/contact.
+2025-07-13 15:39:36,039 - INFO - 127.0.0.1 - - [13/Jul/2025 15:39:36] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:40:53,729 - INFO - 127.0.0.1 - - [13/Jul/2025 15:40:53] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 15:40:53,943 - INFO - 127.0.0.1 - - [13/Jul/2025 15:40:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 15:42:12,963 - INFO - 127.0.0.1 - - [13/Jul/2025 15:42:12] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:42:14,035 - INFO - 127.0.0.1 - - [13/Jul/2025 15:42:14] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:42:15,625 - INFO - User question: what is the website
+2025-07-13 15:42:15,697 - INFO - 127.0.0.1 - - [13/Jul/2025 15:42:15] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:42:15,714 - INFO - Best match: website (similarity: 0.782)
+2025-07-13 15:42:15,744 - INFO - Answered with: We build modern, responsive websites. See our web development services: https://bekitech.com/services/web-development.
+2025-07-13 15:42:15,746 - INFO - 127.0.0.1 - - [13/Jul/2025 15:42:15] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:43:28,034 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:28] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:43:28,778 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:28] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:43:29,136 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:43:29,986 - INFO - User question: what services you provide
+2025-07-13 15:43:30,017 - INFO - Best match: What services do you provide? (similarity: 0.923)
+2025-07-13 15:43:30,058 - INFO - Answered with: We offer web development, mobile app development, UI/UX design, cloud solutions, e-commerce, and digital transformation services. Visit https://bekitech.com/services for more details.
+2025-07-13 15:43:30,060 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:30] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:43:30,076 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:30] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:43:45,421 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:45] "GET / HTTP/1.1" 200 -
+2025-07-13 15:43:49,327 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:49] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:43:49,980 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:49] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:43:50,596 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:50] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:43:51,221 - INFO - User question: services
+2025-07-13 15:43:51,279 - INFO - Best match: services (similarity: 1.000)
+2025-07-13 15:43:51,308 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See https://bekitech.com/services.
+2025-07-13 15:43:51,310 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:51] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:43:51,394 - INFO - 127.0.0.1 - - [13/Jul/2025 15:43:51] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:44:29,117 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:44:29,117 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:44:42,253 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 15:44:42,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:44:42,662 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:44:42,667 - INFO -  * Restarting with stat
+2025-07-13 15:45:09,597 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:45:09,598 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:45:22,669 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 15:45:23,204 - WARNING -  * Debugger is active!
+2025-07-13 15:45:23,212 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:45:24,890 - INFO - 127.0.0.1 - - [13/Jul/2025 15:45:24] "GET / HTTP/1.1" 200 -
+2025-07-13 15:45:30,059 - INFO - 127.0.0.1 - - [13/Jul/2025 15:45:30] "GET / HTTP/1.1" 200 -
+2025-07-13 15:45:32,834 - INFO - 127.0.0.1 - - [13/Jul/2025 15:45:32] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:45:33,452 - INFO - 127.0.0.1 - - [13/Jul/2025 15:45:33] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:45:34,084 - INFO - User question: services
+2025-07-13 15:45:34,142 - INFO - Best match: services (similarity: 1.000)
+2025-07-13 15:45:34,169 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href="https://bekitech.com/services.html" target="_blank">services page</a>.
+2025-07-13 15:45:34,171 - INFO - 127.0.0.1 - - [13/Jul/2025 15:45:34] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:45:34,230 - INFO - 127.0.0.1 - - [13/Jul/2025 15:45:34] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:47:43,290 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 15:47:47,272 - INFO -  * Restarting with stat
+2025-07-13 15:48:30,627 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:48:30,627 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:48:42,533 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 15:48:42,880 - WARNING -  * Debugger is active!
+2025-07-13 15:48:42,886 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:48:50,600 - INFO - 127.0.0.1 - - [13/Jul/2025 15:48:50] "GET / HTTP/1.1" 200 -
+2025-07-13 15:48:58,738 - INFO - User question: hi
+2025-07-13 15:48:58,785 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 15:48:58,815 - INFO - Answered with: Reach us at info@bekitech.com, call +91-9876543210, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 15:48:58,817 - INFO - 127.0.0.1 - - [13/Jul/2025 15:48:58] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:49:42,220 - INFO - 127.0.0.1 - - [13/Jul/2025 15:49:42] "GET / HTTP/1.1" 200 -
+2025-07-13 15:49:46,543 - INFO - User question: phone
+2025-07-13 15:49:46,593 - INFO - Best match: mobile app (similarity: 0.541)
+2025-07-13 15:49:46,623 - INFO - Answered with: We develop mobile apps for iOS and Android. Learn more at our <a href="https://bekitech.com/services.html" target="_blank">services page</a>.
+2025-07-13 15:49:46,625 - INFO - 127.0.0.1 - - [13/Jul/2025 15:49:46] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:50:00,450 - INFO - User question: contact
+2025-07-13 15:50:00,494 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 15:50:00,529 - INFO - Answered with: Reach us at info@bekitech.com, call +91-9876543210, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 15:50:00,530 - INFO - 127.0.0.1 - - [13/Jul/2025 15:50:00] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:52:36,076 - INFO - 127.0.0.1 - - [13/Jul/2025 15:52:36] "GET / HTTP/1.1" 200 -
+2025-07-13 15:53:05,510 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:53:05,510 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:53:15,211 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 15:53:15,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:53:15,892 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 15:53:15,895 - INFO -  * Restarting with stat
+2025-07-13 15:53:39,848 - INFO - Use pytorch device_name: cpu
+2025-07-13 15:53:39,849 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 15:53:49,537 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 15:53:49,993 - WARNING -  * Debugger is active!
+2025-07-13 15:53:50,004 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 15:53:51,877 - INFO - 127.0.0.1 - - [13/Jul/2025 15:53:51] "GET / HTTP/1.1" 200 -
+2025-07-13 15:54:28,735 - INFO - 127.0.0.1 - - [13/Jul/2025 15:54:28] "GET / HTTP/1.1" 200 -
+2025-07-13 15:55:04,793 - INFO - 127.0.0.1 - - [13/Jul/2025 15:55:04] "GET / HTTP/1.1" 200 -
+2025-07-13 15:56:01,077 - INFO - 127.0.0.1 - - [13/Jul/2025 15:56:01] "GET / HTTP/1.1" 200 -
+2025-07-13 15:56:52,310 - INFO - 127.0.0.1 - - [13/Jul/2025 15:56:52] "GET / HTTP/1.1" 200 -
+2025-07-13 15:57:23,870 - INFO - 127.0.0.1 - - [13/Jul/2025 15:57:23] "GET / HTTP/1.1" 200 -
+2025-07-13 15:57:26,984 - INFO - 127.0.0.1 - - [13/Jul/2025 15:57:26] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 15:57:27,354 - INFO - User question: hi
+2025-07-13 15:57:27,424 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 15:57:27,475 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 15:57:27,477 - INFO - 127.0.0.1 - - [13/Jul/2025 15:57:27] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:58:11,301 - INFO - 127.0.0.1 - - [13/Jul/2025 15:58:11] "GET / HTTP/1.1" 200 -
+2025-07-13 15:58:24,238 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 15:58:24,239 - INFO - 127.0.0.1 - - [13/Jul/2025 15:58:24] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 15:58:24,496 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 15:58:24,498 - INFO - 127.0.0.1 - - [13/Jul/2025 15:58:24] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 15:58:29,296 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 15:58:29,297 - INFO - 127.0.0.1 - - [13/Jul/2025 15:58:29] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 15:58:33,568 - INFO - User question: h
+2025-07-13 15:58:33,610 - INFO - Best match: support (similarity: 0.334)
+2025-07-13 15:58:33,637 - INFO - Answered with: For support, email <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a> or use the support form at our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 15:58:33,640 - INFO - 127.0.0.1 - - [13/Jul/2025 15:58:33] "POST /chat HTTP/1.1" 200 -
+2025-07-13 15:58:41,669 - INFO - 127.0.0.1 - - [13/Jul/2025 15:58:41] "GET / HTTP/1.1" 200 -
+2025-07-13 16:00:22,476 - INFO - 127.0.0.1 - - [13/Jul/2025 16:00:22] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:00:22,704 - INFO - User question: hi
+2025-07-13 16:00:22,792 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:00:22,823 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:00:22,824 - INFO - 127.0.0.1 - - [13/Jul/2025 16:00:22] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:03:11,096 - INFO - 127.0.0.1 - - [13/Jul/2025 16:03:11] "GET / HTTP/1.1" 200 -
+2025-07-13 16:03:11,418 - INFO - 127.0.0.1 - - [13/Jul/2025 16:03:11] "GET /static/chatbot.css HTTP/1.1" 200 -
+2025-07-13 16:03:17,296 - INFO - 127.0.0.1 - - [13/Jul/2025 16:03:17] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:03:17,628 - INFO - User question: hi
+2025-07-13 16:03:17,680 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:03:17,716 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:03:17,717 - INFO - 127.0.0.1 - - [13/Jul/2025 16:03:17] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:06:35,219 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 16:06:39,442 - INFO -  * Restarting with stat
+2025-07-13 16:07:22,199 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:07:22,201 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 16:07:34,387 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 16:07:34,892 - WARNING -  * Debugger is active!
+2025-07-13 16:07:34,902 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 16:07:37,188 - INFO - 127.0.0.1 - - [13/Jul/2025 16:07:37] "GET / HTTP/1.1" 200 -
+2025-07-13 16:08:02,857 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:02] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:08:03,256 - INFO - User question: contact
+2025-07-13 16:08:03,302 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 16:08:03,334 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:08:03,335 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:03] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:08:06,219 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:06] "GET / HTTP/1.1" 200 -
+2025-07-13 16:08:06,276 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:06] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+2025-07-13 16:08:09,332 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:09] "GET / HTTP/1.1" 200 -
+2025-07-13 16:08:09,397 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:09] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+2025-07-13 16:08:14,866 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:14] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:08:15,269 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:15] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:08:16,061 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:16] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:08:18,174 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:08:18,631 - INFO - User question: contact
+2025-07-13 16:08:18,673 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 16:08:18,695 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:08:18,696 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:18] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:08:34,978 - INFO - User question: How can I contact you?
+2025-07-13 16:08:35,023 - INFO - Best match: How can I contact you? (similarity: 1.000)
+2025-07-13 16:08:35,051 - INFO - Answered with: You can contact us via our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>, email us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, or call us at <a href="tel:+251925663434">+251-925663434</a>.
+2025-07-13 16:08:35,052 - INFO - 127.0.0.1 - - [13/Jul/2025 16:08:35] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:11:23,923 - INFO - 127.0.0.1 - - [13/Jul/2025 16:11:23] "GET / HTTP/1.1" 200 -
+2025-07-13 16:11:24,179 - INFO - 127.0.0.1 - - [13/Jul/2025 16:11:24] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+2025-07-13 16:13:31,661 - INFO - 127.0.0.1 - - [13/Jul/2025 16:13:31] "GET / HTTP/1.1" 200 -
+2025-07-13 16:13:31,696 - INFO - 127.0.0.1 - - [13/Jul/2025 16:13:31] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+2025-07-13 16:13:33,172 - INFO - 127.0.0.1 - - [13/Jul/2025 16:13:33] "GET / HTTP/1.1" 200 -
+2025-07-13 16:13:33,209 - INFO - 127.0.0.1 - - [13/Jul/2025 16:13:33] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+2025-07-13 16:14:31,951 - INFO - 127.0.0.1 - - [13/Jul/2025 16:14:31] "GET / HTTP/1.1" 200 -
+2025-07-13 16:14:32,132 - INFO - 127.0.0.1 - - [13/Jul/2025 16:14:32] "GET /static/chatbot.css HTTP/1.1" 200 -
+2025-07-13 16:14:36,069 - INFO - 127.0.0.1 - - [13/Jul/2025 16:14:36] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:14:36,565 - INFO - User question: hi
+2025-07-13 16:14:36,592 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:14:36,611 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:14:36,611 - INFO - 127.0.0.1 - - [13/Jul/2025 16:14:36] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:15:18,768 - INFO - 127.0.0.1 - - [13/Jul/2025 16:15:18] "GET / HTTP/1.1" 200 -
+2025-07-13 16:15:18,807 - INFO - 127.0.0.1 - - [13/Jul/2025 16:15:18] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+2025-07-13 16:15:54,568 - INFO - 127.0.0.1 - - [13/Jul/2025 16:15:54] "GET / HTTP/1.1" 200 -
+2025-07-13 16:15:54,609 - INFO - 127.0.0.1 - - [13/Jul/2025 16:15:54] "[33mGET /static/chatbot.css HTTP/1.1[0m" 404 -
+2025-07-13 16:16:40,103 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:16:40,103 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 16:16:57,056 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 16:16:57,916 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 16:16:57,918 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 16:16:57,920 - INFO -  * Restarting with stat
+2025-07-13 16:17:08,057 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:17:08,058 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 16:17:14,814 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 16:17:15,077 - WARNING -  * Debugger is active!
+2025-07-13 16:17:15,081 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 16:17:15,869 - INFO - 127.0.0.1 - - [13/Jul/2025 16:17:15] "GET / HTTP/1.1" 200 -
+2025-07-13 16:17:16,017 - INFO - 127.0.0.1 - - [13/Jul/2025 16:17:16] "GET /static/chatbot.css HTTP/1.1" 200 -
+2025-07-13 16:17:25,931 - INFO - 127.0.0.1 - - [13/Jul/2025 16:17:25] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:17:26,389 - INFO - User question: hi
+2025-07-13 16:17:26,416 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:17:26,430 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:17:26,431 - INFO - 127.0.0.1 - - [13/Jul/2025 16:17:26] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:17:33,311 - INFO - User question: service
+2025-07-13 16:17:33,327 - INFO - Best match: service (similarity: 1.000)
+2025-07-13 16:17:33,336 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href="https://bekitech.com/services.html" target="_blank">services page</a>.
+2025-07-13 16:17:33,337 - INFO - 127.0.0.1 - - [13/Jul/2025 16:17:33] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:17:33,421 - INFO - 127.0.0.1 - - [13/Jul/2025 16:17:33] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:18:48,209 - INFO - 127.0.0.1 - - [13/Jul/2025 16:18:48] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:18:48,613 - INFO - User question: contact
+2025-07-13 16:18:48,634 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 16:18:48,648 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:18:48,648 - INFO - 127.0.0.1 - - [13/Jul/2025 16:18:48] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:26:06,780 - INFO - 127.0.0.1 - - [13/Jul/2025 16:26:06] "GET / HTTP/1.1" 200 -
+2025-07-13 16:26:06,818 - INFO - 127.0.0.1 - - [13/Jul/2025 16:26:06] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:26:21,025 - INFO - 127.0.0.1 - - [13/Jul/2025 16:26:21] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:26:22,245 - INFO - 127.0.0.1 - - [13/Jul/2025 16:26:22] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:26:22,305 - INFO - User question: contact
+2025-07-13 16:26:22,340 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 16:26:22,361 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:26:22,362 - INFO - 127.0.0.1 - - [13/Jul/2025 16:26:22] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:29:26,230 - INFO - 127.0.0.1 - - [13/Jul/2025 16:29:26] "GET / HTTP/1.1" 200 -
+2025-07-13 16:29:26,267 - INFO - 127.0.0.1 - - [13/Jul/2025 16:29:26] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:29:58,410 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:29:58,411 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 16:30:05,657 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 16:30:05,962 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 16:30:05,962 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 16:30:05,964 - INFO -  * Restarting with stat
+2025-07-13 16:30:15,177 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:30:15,177 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 16:30:22,385 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 16:30:22,618 - WARNING -  * Debugger is active!
+2025-07-13 16:30:22,631 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 16:30:57,877 - INFO - 127.0.0.1 - - [13/Jul/2025 16:30:57] "GET / HTTP/1.1" 200 -
+2025-07-13 16:30:57,988 - INFO - 127.0.0.1 - - [13/Jul/2025 16:30:57] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:35:34,573 - INFO - 127.0.0.1 - - [13/Jul/2025 16:35:34] "GET / HTTP/1.1" 200 -
+2025-07-13 16:35:34,607 - INFO - 127.0.0.1 - - [13/Jul/2025 16:35:34] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:37:53,606 - INFO - 127.0.0.1 - - [13/Jul/2025 16:37:53] "GET / HTTP/1.1" 200 -
+2025-07-13 16:37:53,654 - INFO - 127.0.0.1 - - [13/Jul/2025 16:37:53] "GET /static/chatbot.css HTTP/1.1" 200 -
+2025-07-13 16:37:59,962 - INFO - 127.0.0.1 - - [13/Jul/2025 16:37:59] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:38:00,436 - INFO - User question: hi
+2025-07-13 16:38:00,461 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:38:00,478 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:38:00,480 - INFO - 127.0.0.1 - - [13/Jul/2025 16:38:00] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:38:14,329 - INFO - 127.0.0.1 - - [13/Jul/2025 16:38:14] "GET / HTTP/1.1" 200 -
+2025-07-13 16:38:14,384 - INFO - 127.0.0.1 - - [13/Jul/2025 16:38:14] "GET /static/chatbot.css HTTP/1.1" 200 -
+2025-07-13 16:38:17,881 - INFO - 127.0.0.1 - - [13/Jul/2025 16:38:17] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:38:18,003 - INFO - User question: hi
+2025-07-13 16:38:18,023 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:38:18,037 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:38:18,037 - INFO - 127.0.0.1 - - [13/Jul/2025 16:38:18] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:39:25,753 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:25] "GET / HTTP/1.1" 200 -
+2025-07-13 16:39:25,794 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:25] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:39:29,093 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:39:29,510 - INFO - User question: hi
+2025-07-13 16:39:29,533 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:39:29,546 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:39:29,547 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:29] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:39:30,604 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:30] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:39:31,529 - INFO - User question: service
+2025-07-13 16:39:31,553 - INFO - Best match: service (similarity: 1.000)
+2025-07-13 16:39:31,565 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href="https://bekitech.com/services.html" target="_blank">services page</a>.
+2025-07-13 16:39:31,566 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:31] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:39:31,623 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:31] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:39:53,660 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:53] "GET / HTTP/1.1" 200 -
+2025-07-13 16:39:53,715 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:53] "GET /static/chatbot.css HTTP/1.1" 200 -
+2025-07-13 16:39:56,778 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:56] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:39:56,814 - INFO - User question: hi
+2025-07-13 16:39:56,827 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 16:39:56,837 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:39:56,838 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:56] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:39:58,946 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:58] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:39:59,799 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:59] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:39:59,902 - INFO - User question: contact
+2025-07-13 16:39:59,920 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 16:39:59,933 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 16:39:59,933 - INFO - 127.0.0.1 - - [13/Jul/2025 16:39:59] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:40:09,642 - INFO - User question: services
+2025-07-13 16:40:09,666 - INFO - Best match: services (similarity: 1.000)
+2025-07-13 16:40:09,677 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href="https://bekitech.com/services.html" target="_blank">services page</a>.
+2025-07-13 16:40:09,678 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:09] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:40:09,817 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:09] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:40:28,946 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:28] "GET / HTTP/1.1" 200 -
+2025-07-13 16:40:28,994 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:28] "GET /static/chatbot.css HTTP/1.1" 200 -
+2025-07-13 16:40:46,360 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:46] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:40:47,114 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:40:47,687 - INFO - User question: services
+2025-07-13 16:40:47,711 - INFO - Best match: services (similarity: 1.000)
+2025-07-13 16:40:47,721 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href="https://bekitech.com/services.html" target="_blank">services page</a>.
+2025-07-13 16:40:47,722 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:47] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:40:47,854 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:47] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:40:51,482 - INFO - User question: What services does BekiTech offer?
+2025-07-13 16:40:51,521 - INFO - Best match: What services does BekiTech offer? (similarity: 1.000)
+2025-07-13 16:40:51,541 - INFO - Answered with: BekiTech provides end-to-end software solutions including web development, mobile app development, UI/UX design, cloud services, and digital transformation consulting. Learn more on our <a href="https://bekitech.com/index.html" target="_blank">main page</a>.
+2025-07-13 16:40:51,542 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:51] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:40:54,641 - INFO - User question: What services does BekiTech offer?
+2025-07-13 16:40:54,668 - INFO - Best match: What services does BekiTech offer? (similarity: 1.000)
+2025-07-13 16:40:54,684 - INFO - Answered with: BekiTech provides end-to-end software solutions including web development, mobile app development, UI/UX design, cloud services, and digital transformation consulting. Learn more on our <a href="https://bekitech.com/index.html" target="_blank">main page</a>.
+2025-07-13 16:40:54,684 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:54] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:40:57,719 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:57] "[33mGET /$1 HTTP/1.1[0m" 404 -
+2025-07-13 16:40:57,724 - INFO - 127.0.0.1 - - [13/Jul/2025 16:40:57] "[33mGET /<button%20class= HTTP/1.1[0m" 404 -
+2025-07-13 16:41:41,947 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:41:41,948 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 16:41:49,000 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 16:41:49,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 16:41:49,323 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 16:41:49,326 - INFO -  * Restarting with stat
+2025-07-13 16:42:00,129 - INFO - Use pytorch device_name: cpu
+2025-07-13 16:42:00,130 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 16:42:16,324 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 16:42:16,630 - WARNING -  * Debugger is active!
+2025-07-13 16:42:16,638 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 16:43:57,798 - INFO - 127.0.0.1 - - [13/Jul/2025 16:43:57] "GET / HTTP/1.1" 200 -
+2025-07-13 16:43:57,974 - INFO - 127.0.0.1 - - [13/Jul/2025 16:43:57] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:46:02,646 - INFO - 127.0.0.1 - - [13/Jul/2025 16:46:02] "GET / HTTP/1.1" 200 -
+2025-07-13 16:46:02,673 - INFO - 127.0.0.1 - - [13/Jul/2025 16:46:02] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:46:04,463 - INFO - 127.0.0.1 - - [13/Jul/2025 16:46:04] "GET / HTTP/1.1" 200 -
+2025-07-13 16:46:04,497 - INFO - 127.0.0.1 - - [13/Jul/2025 16:46:04] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:46:18,966 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 16:46:18,967 - INFO - 127.0.0.1 - - [13/Jul/2025 16:46:18] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 16:46:22,136 - INFO - 127.0.0.1 - - [13/Jul/2025 16:46:22] "GET / HTTP/1.1" 200 -
+2025-07-13 16:46:22,177 - INFO - 127.0.0.1 - - [13/Jul/2025 16:46:22] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:54:14,335 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 16:54:14,336 - INFO - 127.0.0.1 - - [13/Jul/2025 16:54:14] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 16:54:15,915 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 16:54:15,916 - INFO - 127.0.0.1 - - [13/Jul/2025 16:54:15] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 16:54:24,384 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 16:54:24,385 - INFO - 127.0.0.1 - - [13/Jul/2025 16:54:24] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 16:54:27,169 - INFO - 127.0.0.1 - - [13/Jul/2025 16:54:27] "GET / HTTP/1.1" 200 -
+2025-07-13 16:54:27,233 - INFO - 127.0.0.1 - - [13/Jul/2025 16:54:27] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:57:08,071 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:08] "GET / HTTP/1.1" 200 -
+2025-07-13 16:57:08,111 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:08] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:57:15,555 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 16:57:15,556 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:15] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 16:57:21,184 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-07-13 16:57:21,185 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:21] "POST /voice-input HTTP/1.1" 200 -
+2025-07-13 16:57:23,697 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:23] "GET / HTTP/1.1" 200 -
+2025-07-13 16:57:23,747 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:23] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 16:57:29,063 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:57:29,512 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:29] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:57:30,109 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:30] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 16:57:30,808 - INFO - User question: services
+2025-07-13 16:57:30,836 - INFO - Best match: services (similarity: 1.000)
+2025-07-13 16:57:30,856 - INFO - Answered with: We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href="https://bekitech.com/services.html" target="_blank">services page</a>.
+2025-07-13 16:57:30,856 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:30] "POST /chat HTTP/1.1" 200 -
+2025-07-13 16:57:30,903 - INFO - 127.0.0.1 - - [13/Jul/2025 16:57:30] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:01:29,006 - INFO - 127.0.0.1 - - [13/Jul/2025 17:01:29] "GET / HTTP/1.1" 200 -
+2025-07-13 17:01:29,047 - INFO - 127.0.0.1 - - [13/Jul/2025 17:01:29] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:03:51,407 - INFO - 127.0.0.1 - - [13/Jul/2025 17:03:51] "GET / HTTP/1.1" 200 -
+2025-07-13 17:03:51,448 - INFO - 127.0.0.1 - - [13/Jul/2025 17:03:51] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:03:52,904 - INFO - 127.0.0.1 - - [13/Jul/2025 17:03:52] "GET / HTTP/1.1" 200 -
+2025-07-13 17:03:52,937 - INFO - 127.0.0.1 - - [13/Jul/2025 17:03:52] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:03:55,351 - INFO - 127.0.0.1 - - [13/Jul/2025 17:03:55] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:03:55,630 - INFO - User question: hi
+2025-07-13 17:03:55,648 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:03:55,656 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 17:03:55,657 - INFO - 127.0.0.1 - - [13/Jul/2025 17:03:55] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:04:58,901 - INFO - 127.0.0.1 - - [13/Jul/2025 17:04:58] "[33mGET /<button%20class= HTTP/1.1[0m" 404 -
+2025-07-13 17:06:53,048 - INFO - 127.0.0.1 - - [13/Jul/2025 17:06:53] "GET / HTTP/1.1" 200 -
+2025-07-13 17:06:53,109 - INFO - 127.0.0.1 - - [13/Jul/2025 17:06:53] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:06:56,429 - INFO - 127.0.0.1 - - [13/Jul/2025 17:06:56] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:06:56,502 - INFO - User question: hi
+2025-07-13 17:06:56,523 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:06:56,532 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 17:06:56,533 - INFO - 127.0.0.1 - - [13/Jul/2025 17:06:56] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:08:48,416 - INFO - 127.0.0.1 - - [13/Jul/2025 17:08:48] "GET / HTTP/1.1" 200 -
+2025-07-13 17:08:48,454 - INFO - 127.0.0.1 - - [13/Jul/2025 17:08:48] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:08:52,685 - INFO - 127.0.0.1 - - [13/Jul/2025 17:08:52] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:08:53,210 - INFO - 127.0.0.1 - - [13/Jul/2025 17:08:53] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:08:53,670 - INFO - 127.0.0.1 - - [13/Jul/2025 17:08:53] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:08:53,746 - INFO - User question: contact
+2025-07-13 17:08:53,774 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 17:08:53,791 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 17:08:53,794 - INFO - 127.0.0.1 - - [13/Jul/2025 17:08:53] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:08:57,701 - INFO - 127.0.0.1 - - [13/Jul/2025 17:08:57] "[33mGET /<button%20class= HTTP/1.1[0m" 404 -
+2025-07-13 17:09:22,982 - INFO - 127.0.0.1 - - [13/Jul/2025 17:09:22] "GET / HTTP/1.1" 200 -
+2025-07-13 17:09:23,042 - INFO - 127.0.0.1 - - [13/Jul/2025 17:09:23] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:09:24,129 - INFO - 127.0.0.1 - - [13/Jul/2025 17:09:24] "GET / HTTP/1.1" 200 -
+2025-07-13 17:09:24,174 - INFO - 127.0.0.1 - - [13/Jul/2025 17:09:24] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:09:27,024 - INFO - 127.0.0.1 - - [13/Jul/2025 17:09:27] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:09:27,386 - INFO - User question: contact
+2025-07-13 17:09:27,418 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 17:09:27,439 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 17:09:27,440 - INFO - 127.0.0.1 - - [13/Jul/2025 17:09:27] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:14:37,184 - INFO - 127.0.0.1 - - [13/Jul/2025 17:14:37] "GET / HTTP/1.1" 200 -
+2025-07-13 17:14:37,216 - INFO - 127.0.0.1 - - [13/Jul/2025 17:14:37] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:14:40,528 - INFO - 127.0.0.1 - - [13/Jul/2025 17:14:40] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:14:40,557 - INFO - User question: hi
+2025-07-13 17:14:40,581 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:14:40,591 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 17:14:40,591 - INFO - 127.0.0.1 - - [13/Jul/2025 17:14:40] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:18:15,655 - INFO - 127.0.0.1 - - [13/Jul/2025 17:18:15] "GET / HTTP/1.1" 200 -
+2025-07-13 17:18:15,726 - INFO - 127.0.0.1 - - [13/Jul/2025 17:18:15] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:18:20,325 - INFO - 127.0.0.1 - - [13/Jul/2025 17:18:20] "GET / HTTP/1.1" 200 -
+2025-07-13 17:18:20,400 - INFO - 127.0.0.1 - - [13/Jul/2025 17:18:20] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:18:23,742 - INFO - 127.0.0.1 - - [13/Jul/2025 17:18:23] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:18:24,145 - INFO - User question: hi
+2025-07-13 17:18:24,185 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:18:24,207 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="https://bekitech.com/contact.html" target="_blank">contact page</a>.
+2025-07-13 17:18:24,209 - INFO - 127.0.0.1 - - [13/Jul/2025 17:18:24] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:19:55,762 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:19:59,539 - INFO -  * Restarting with stat
+2025-07-13 17:20:42,584 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:20:42,585 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:20:50,490 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:20:50,883 - WARNING -  * Debugger is active!
+2025-07-13 17:20:50,891 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:20:53,495 - INFO - 127.0.0.1 - - [13/Jul/2025 17:20:53] "GET / HTTP/1.1" 200 -
+2025-07-13 17:20:53,776 - INFO - 127.0.0.1 - - [13/Jul/2025 17:20:53] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:20:57,943 - INFO - User question: hi
+2025-07-13 17:20:57,979 - INFO - 127.0.0.1 - - [13/Jul/2025 17:20:57] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:20:58,010 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:20:58,043 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-07-13 17:20:58,045 - INFO - 127.0.0.1 - - [13/Jul/2025 17:20:58] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:21:05,087 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:21:05,088 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:21:13,522 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:21:14,044 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 17:21:14,045 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 17:21:14,056 - INFO -  * Restarting with stat
+2025-07-13 17:21:18,102 - INFO - User question: Which technologies do you use?
+2025-07-13 17:21:18,180 - INFO - Best match: Which technologies do you use? (similarity: 1.000)
+2025-07-13 17:21:18,223 - INFO - Answered with: We use React, Angular, Vue.js, Node.js, Django, Flask, .NET, React Native, Flutter, AWS, Azure, and more. See our <a href="/#technology">Technology</a>.
+2025-07-13 17:21:18,224 - INFO - 127.0.0.1 - - [13/Jul/2025 17:21:18] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:21:38,130 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:21:38,130 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:21:46,366 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:21:46,883 - WARNING -  * Debugger is active!
+2025-07-13 17:21:46,895 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:21:55,011 - INFO - 127.0.0.1 - - [13/Jul/2025 17:21:55] "GET / HTTP/1.1" 200 -
+2025-07-13 17:21:55,275 - INFO - 127.0.0.1 - - [13/Jul/2025 17:21:55] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:22:56,310 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:22:59,071 - INFO -  * Restarting with stat
+2025-07-13 17:23:22,640 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:23:22,641 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:23:22,826 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:23:22,827 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:23:31,229 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:23:31,383 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:23:31,963 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 17:23:31,964 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 17:23:31,968 - INFO -  * Restarting with stat
+2025-07-13 17:23:32,047 - WARNING -  * Debugger is active!
+2025-07-13 17:23:32,114 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:23:42,700 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:23:42,701 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:23:44,201 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:44] "GET / HTTP/1.1" 200 -
+2025-07-13 17:23:44,705 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:44] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:23:48,986 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:48] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:23:49,422 - INFO - User question: hi
+2025-07-13 17:23:49,466 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:23:49,494 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-07-13 17:23:49,495 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:49] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:23:58,128 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:58] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:23:58,579 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:58] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:23:58,939 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:23:58,939 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:23:59,591 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:59] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:23:59,855 - INFO - User question: conntact
+2025-07-13 17:23:59,899 - INFO - Best match: contact (similarity: 0.371)
+2025-07-13 17:23:59,918 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-07-13 17:23:59,919 - INFO - 127.0.0.1 - - [13/Jul/2025 17:23:59] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:24:01,301 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:24:01,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 17:24:01,710 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 17:24:01,714 - INFO -  * Restarting with stat
+2025-07-13 17:24:08,197 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:24:08,751 - WARNING -  * Debugger is active!
+2025-07-13 17:24:08,760 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:24:23,633 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:24:23,633 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:24:31,550 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:24:32,400 - WARNING -  * Debugger is active!
+2025-07-13 17:24:32,411 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:24:40,853 - INFO - 127.0.0.1 - - [13/Jul/2025 17:24:40] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 17:24:41,149 - INFO - 127.0.0.1 - - [13/Jul/2025 17:24:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 17:24:51,771 - INFO - 127.0.0.1 - - [13/Jul/2025 17:24:51] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 17:24:53,312 - INFO - 127.0.0.1 - - [13/Jul/2025 17:24:53] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 17:24:55,884 - INFO - 127.0.0.1 - - [13/Jul/2025 17:24:55] "POST /voice-output HTTP/1.1" 200 -
+2025-07-13 17:24:57,327 - INFO - 127.0.0.1 - - [13/Jul/2025 17:24:57] "GET / HTTP/1.1" 200 -
+2025-07-13 17:24:57,402 - INFO - 127.0.0.1 - - [13/Jul/2025 17:24:57] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:25:14,558 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:14] "GET / HTTP/1.1" 200 -
+2025-07-13 17:25:14,618 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:14] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:25:17,579 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:17] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:25:18,294 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:25:18,744 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:18] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:25:19,164 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:19] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:25:19,567 - INFO - User question: contact
+2025-07-13 17:25:19,574 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:19] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:25:19,614 - INFO - Best match: contact (similarity: 1.000)
+2025-07-13 17:25:19,634 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-07-13 17:25:19,635 - INFO - 127.0.0.1 - - [13/Jul/2025 17:25:19] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:26:09,000 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:26:09,032 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:26:12,147 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:26:13,548 - INFO -  * Restarting with stat
+2025-07-13 17:26:13,631 - INFO -  * Restarting with stat
+2025-07-13 17:26:16,855 - INFO -  * Restarting with stat
+2025-07-13 17:26:42,037 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:26:42,038 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:26:42,193 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:26:42,194 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:26:44,648 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:26:44,649 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:26:58,323 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:26:58,598 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:26:58,961 - WARNING -  * Debugger is active!
+2025-07-13 17:26:58,974 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:26:59,190 - WARNING -  * Debugger is active!
+2025-07-13 17:26:59,197 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:27:01,868 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:27:01,994 - INFO - 127.0.0.1 - - [13/Jul/2025 17:27:01] "GET / HTTP/1.1" 200 -
+2025-07-13 17:27:02,312 - INFO - 127.0.0.1 - - [13/Jul/2025 17:27:02] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:27:03,134 - WARNING -  * Debugger is active!
+2025-07-13 17:27:03,155 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:27:06,810 - INFO - User question: h
+2025-07-13 17:27:06,885 - INFO - Best match: support (similarity: 0.334)
+2025-07-13 17:27:06,910 - INFO - Answered with: For support, email <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a> or use the support form at our <a href="/#contact">Contact Page</a>.
+2025-07-13 17:27:06,911 - INFO - 127.0.0.1 - - [13/Jul/2025 17:27:06] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:27:37,625 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:27:37,882 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:27:40,941 - INFO -  * Restarting with stat
+2025-07-13 17:27:41,343 - INFO -  * Restarting with stat
+2025-07-13 17:27:42,655 - INFO -  * Detected change in 'D:\\$Website\\Intership\\Chatbot-for-FAQs\\app.py', reloading
+2025-07-13 17:27:44,629 - INFO -  * Restarting with stat
+2025-07-13 17:28:03,333 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:28:03,334 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:28:03,349 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:28:03,349 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:28:06,135 - INFO - Use pytorch device_name: cpu
+2025-07-13 17:28:06,135 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 17:28:13,078 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:28:13,079 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:28:15,233 - WARNING -  * Debugger is active!
+2025-07-13 17:28:15,245 - WARNING -  * Debugger is active!
+2025-07-13 17:28:15,246 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:28:15,255 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:28:22,953 - INFO - Loaded 51 FAQs from JSON file
+2025-07-13 17:28:23,627 - WARNING -  * Debugger is active!
+2025-07-13 17:28:23,642 - INFO -  * Debugger PIN: 107-538-522
+2025-07-13 17:28:52,931 - INFO - 127.0.0.1 - - [13/Jul/2025 17:28:52] "GET / HTTP/1.1" 200 -
+2025-07-13 17:28:53,163 - INFO - 127.0.0.1 - - [13/Jul/2025 17:28:53] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:28:55,965 - INFO - 127.0.0.1 - - [13/Jul/2025 17:28:55] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:28:56,098 - INFO - User question: hi
+2025-07-13 17:28:56,136 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:28:56,158 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-07-13 17:28:56,159 - INFO - 127.0.0.1 - - [13/Jul/2025 17:28:56] "POST /chat HTTP/1.1" 200 -
+2025-07-13 17:29:03,218 - INFO - 127.0.0.1 - - [13/Jul/2025 17:29:03] "GET / HTTP/1.1" 200 -
+2025-07-13 17:29:03,270 - INFO - 127.0.0.1 - - [13/Jul/2025 17:29:03] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:29:07,231 - INFO - 127.0.0.1 - - [13/Jul/2025 17:29:07] "GET / HTTP/1.1" 200 -
+2025-07-13 17:29:07,292 - INFO - 127.0.0.1 - - [13/Jul/2025 17:29:07] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:30:40,342 - INFO - 127.0.0.1 - - [13/Jul/2025 17:30:40] "GET / HTTP/1.1" 200 -
+2025-07-13 17:30:40,412 - INFO - 127.0.0.1 - - [13/Jul/2025 17:30:40] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-07-13 17:30:44,876 - INFO - 127.0.0.1 - - [13/Jul/2025 17:30:44] "POST /suggestions HTTP/1.1" 200 -
+2025-07-13 17:30:45,052 - INFO - User question: hi
+2025-07-13 17:30:45,088 - INFO - Best match: contact (similarity: 0.387)
+2025-07-13 17:30:45,109 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-07-13 17:30:45,110 - INFO - 127.0.0.1 - - [13/Jul/2025 17:30:45] "POST /chat HTTP/1.1" 200 -

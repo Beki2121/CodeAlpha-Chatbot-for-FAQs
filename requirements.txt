@@ -1,0 +1,9 @@
+Flask
+spacy
+scikit-learn
+numpy
+sentence-transformers
+SpeechRecognition
+gtts
+# To install the SpaCy English model, run:
+# python -m spacy download en_core_web_sm 

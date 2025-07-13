@@ -1,0 +1,66 @@
+[
+  {"question": "What services does BekiTech offer?", "answer": "BekiTech provides end-to-end software solutions including web development, mobile app development, UI/UX design, cloud services, and digital transformation consulting. Learn more on our <a href=\"/#services\">main page</a>."},
+  {"question": "What services do you provide?", "answer": "We offer web development, mobile app development, UI/UX design, cloud solutions, e-commerce, and digital transformation services. Visit our <a href=\"/#services\">Services</a> for more details."},
+  {"question": "Tell me about your services.", "answer": "Our services include custom web and mobile app development, UI/UX design, cloud migration, e-commerce solutions, and technology consulting. Learn more at our <a href=\"/#services\">Services</a>."},
+  {"question": "service", "answer": "We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href=\"/#services\">Services</a>."},
+  {"question": "services", "answer": "We provide full stack development, web and mobile apps, UI/UX, cloud, and e-commerce solutions. See our <a href=\"/#services\">Services</a>."},
+  {"question": "Can you give me a detailed overview of all the services BekiTech offers for businesses looking to build digital products?", "answer": "BekiTech provides end-to-end software solutions including web development, mobile app development, UI/UX design, cloud services, and digital transformation consulting. Learn more at our <a href=\"/#services\">Services</a>."},
+
+  {"question": "How can I contact you?", "answer": "You can contact us via our <a href=\"/#contact\">Contact Page</a>, email us at <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>, or call us at <a href=\"tel:+251925663434\">+251-925663434</a>."},
+  {"question": "contact", "answer": "Reach us at <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>, call <a href=\"tel:+251925663434\">+251-925663434</a>, or use our <a href=\"/#contact\">Contact Page</a>."},
+  {"question": "support", "answer": "For support, email <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a> or use the support form at our <a href=\"/#contact\">Contact Page</a>."},
+  {"question": "customer support", "answer": "For customer support, email <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a> or use the support form at our <a href=\"/#contact\">Contact Page</a>."},
+  {"question": "If I need to get in touch with BekiTech for a new project or support, what are my options?", "answer": "You can contact us via our <a href=\"/#contact\">Contact Page</a>, email us at <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>, or call us at <a href=\"tel:+251925663434\">+251-925663434</a>."},
+
+  {"question": "What is your pricing?", "answer": "Our pricing depends on your project requirements. Contact us for a free quote tailored to your needs: <a href=\"/#contact\">Contact Page</a>."},
+  {"question": "price", "answer": "Pricing is project-based. For a detailed quote, please contact us at <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a> or visit our <a href=\"/#contact\">Contact Page</a>."},
+  {"question": "cost", "answer": "Project cost varies by scope and features. Get a free estimate at our <a href=\"/#contact\">Contact Page</a>."},
+  {"question": "Can you explain how your pricing works for a custom web or mobile app project?", "answer": "Our pricing depends on your project requirements. Contact us for a free quote tailored to your needs: <a href=\"/#contact\">Contact Page</a>."},
+
+  {"question": "Which technologies do you use?", "answer": "We use React, Angular, Vue.js, Node.js, Django, Flask, .NET, React Native, Flutter, AWS, Azure, and more. See our <a href=\"/#technology\">Technology</a>."},
+  {"question": "technology", "answer": "Our technology stack includes React, Angular, Vue.js, Node.js, Django, .NET, Flutter, AWS, and more. Details: <a href=\"/#technology\">Technology</a>."},
+  {"question": "technologies", "answer": "We use modern technologies like React, Angular, Node.js, Django, .NET, Flutter, AWS, and more. See our <a href=\"/#technology\">Technology</a>."},
+  {"question": "What are the main programming languages and frameworks BekiTech uses for software development?", "answer": "We use React, Angular, Vue.js, Node.js, Django, Flask, .NET, React Native, Flutter, AWS, Azure, and more. See our <a href=\"/#technology\">Technology</a>."},
+
+  {"question": "Do you develop mobile apps?", "answer": "Yes, we build custom mobile apps for iOS and Android using native and cross-platform frameworks. See our <a href=\"/#services\">Services</a>."},
+  {"question": "mobile app", "answer": "We develop mobile apps for iOS and Android. Learn more at our <a href=\"/#services\">Services</a>."},
+  {"question": "app development", "answer": "We offer mobile app development for iOS and Android. Details: <a href=\"/#services\">Services</a>."},
+  {"question": "I am interested in building a mobile app for my business. Can you describe your process and experience?", "answer": "Yes, we build custom mobile apps for iOS and Android using native and cross-platform frameworks. See our <a href=\"/#services\">Services</a>."},
+
+  {"question": "Do you offer web development?", "answer": "Yes, we offer custom web development using the latest technologies and frameworks. See our <a href=\"/#services\">Services</a>."},
+  {"question": "web development", "answer": "We provide web development services for businesses of all sizes. Learn more at our <a href=\"/#services\">Services</a>."},
+  {"question": "website", "answer": "We build modern, responsive websites. See our <a href=\"/#services\">Web Development Services</a>."},
+  {"question": "Can you help me create a modern, responsive website for my company?", "answer": "Yes, we offer custom web development using the latest technologies and frameworks. See our <a href=\"/#services\">Services</a>."},
+
+  {"question": "Do you provide UI/UX design?", "answer": "Yes, our design team creates intuitive and visually appealing interfaces. See our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">UI/UX design services</a>."},
+  {"question": "UI/UX", "answer": "We offer UI/UX design services for web and mobile apps. Details: <a href=\"https://bekitech.com/services.html\" target=\"_blank\">UI/UX design services</a>."},
+  {"question": "design", "answer": "Our UI/UX design services help create engaging digital experiences. Learn more at our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">UI/UX design services</a>."},
+  {"question": "What is your approach to UI/UX design and how do you ensure a great user experience?", "answer": "Yes, our design team creates intuitive and visually appealing interfaces. See our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">UI/UX design services</a>."},
+
+  {"question": "Do you offer cloud solutions?", "answer": "Yes, we provide cloud migration, deployment, and management services using AWS, Azure, and Google Cloud. See our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">cloud services</a>."},
+  {"question": "cloud", "answer": "We offer cloud solutions including migration, deployment, and management. Details: <a href=\"https://bekitech.com/services.html\" target=\"_blank\">cloud services</a>."},
+  {"question": "Can you describe your cloud services and how they can help my business scale?", "answer": "Yes, we provide cloud migration, deployment, and management services using AWS, Azure, and Google Cloud. See our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">cloud services</a>."},
+
+  {"question": "Do you provide e-commerce development?", "answer": "Yes, we build robust e-commerce platforms with product catalogs, shopping carts, and secure payments. See our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">e-commerce services</a>."},
+  {"question": "e-commerce", "answer": "We develop e-commerce solutions tailored to your business. Learn more at our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">e-commerce services</a>."},
+  {"question": "I want to launch an online store. What e-commerce solutions do you offer?", "answer": "Yes, we build robust e-commerce platforms with product catalogs, shopping carts, and secure payments. See our <a href=\"https://bekitech.com/services.html\" target=\"_blank\">e-commerce services</a>."},
+
+  {"question": "Do you offer support and maintenance?", "answer": "Yes, we offer post-launch support, maintenance, and updates for your application. Contact us at <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>."},
+  {"question": "maintenance", "answer": "We provide ongoing maintenance and support for all our projects. Email <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>."},
+  {"question": "post-launch support", "answer": "We offer post-launch support and updates. Contact <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>."},
+  {"question": "After my project is launched, what kind of support and maintenance can I expect from BekiTech?", "answer": "Yes, we offer post-launch support, maintenance, and updates for your application. Contact us at <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>."},
+
+  {"question": "What is your project process?", "answer": "We follow agile methodologies, with requirement analysis, design, development, testing, deployment, and support. See our <a href=\"/#process\">process page</a>."},
+  {"question": "process", "answer": "Our process is agile and transparent, involving you at every stage. Details: <a href=\"/#process\">process page</a>."},
+  {"question": "project management", "answer": "We use agile project management tools and practices. Learn more at our <a href=\"/#process\">process page</a>."},
+  {"question": "Can you walk me through your typical project management and development process?", "answer": "We follow agile methodologies, with requirement analysis, design, development, testing, deployment, and support. See our <a href=\"/#process\">process page</a>."},
+
+  {"question": "Do you sign NDAs?", "answer": "Yes, we sign NDAs and ensure confidentiality for all projects."},
+  {"question": "NDA", "answer": "We sign NDAs to protect your business ideas and data."},
+  {"question": "If I want to keep my project confidential, will you sign an NDA?", "answer": "Yes, we sign NDAs and ensure confidentiality for all projects."},
+
+  {"question": "How do I get started?", "answer": "Contact us through our <a href=\"/#contact\">Contact Page</a> or email <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>, and we will schedule a free consultation to discuss your project."},
+  {"question": "get started", "answer": "Reach out at our <a href=\"/#contact\">Contact Page</a> or <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a> to start your project with us."},
+  {"question": "I am ready to begin a project. What are the first steps to get started with BekiTech?", "answer": "Contact us through our <a href=\"/#contact\">Contact Page</a> or email <a href=\"mailto:berekethabtamu2121@gmail.com\">berekethabtamu2121@gmail.com</a>, and we will schedule a free consultation to discuss your project."}
+]
+  
