@@ -961,3 +961,19 @@ Trying to resume download...
 2025-07-13 17:30:45,088 - INFO - Best match: contact (similarity: 0.387)
 2025-07-13 17:30:45,109 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
 2025-07-13 17:30:45,110 - INFO - 127.0.0.1 - - [13/Jul/2025 17:30:45] "POST /chat HTTP/1.1" 200 -
+2025-08-02 07:15:29,082 - INFO - Use pytorch device_name: cpu
+2025-08-02 07:15:29,082 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-02 07:15:30,361 - INFO - Loaded 51 FAQs from JSON file
+2025-08-02 07:15:30,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-02 07:15:30,451 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-02 07:15:30,452 - INFO -  * Restarting with stat
+2025-08-02 07:15:33,581 - INFO - Use pytorch device_name: cpu
+2025-08-02 07:15:33,581 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-02 07:15:34,130 - INFO - Loaded 51 FAQs from JSON file
+2025-08-02 07:15:34,225 - WARNING -  * Debugger is active!
+2025-08-02 07:15:34,226 - INFO -  * Debugger PIN: 119-854-620
+2025-08-02 07:15:40,916 - INFO - User question: hello
+2025-08-02 07:15:40,926 - INFO - Best match: contact (similarity: 0.355)
+2025-08-02 07:15:40,931 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-08-02 07:15:40,932 - INFO - 127.0.0.1 - - [02/Aug/2025 07:15:40] "POST /chat HTTP/1.1" 200 -
