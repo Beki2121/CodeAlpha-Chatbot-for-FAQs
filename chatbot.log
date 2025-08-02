@@ -977,3 +977,18 @@ Trying to resume download...
 2025-08-02 07:15:40,926 - INFO - Best match: contact (similarity: 0.355)
 2025-08-02 07:15:40,931 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
 2025-08-02 07:15:40,932 - INFO - 127.0.0.1 - - [02/Aug/2025 07:15:40] "POST /chat HTTP/1.1" 200 -
+2025-08-02 07:19:27,824 - INFO - User question: What are your services?
+2025-08-02 07:19:27,839 - INFO - Best match: What services do you provide? (similarity: 0.889)
+2025-08-02 07:19:27,846 - INFO - Answered with: We offer web development, mobile app development, UI/UX design, cloud solutions, e-commerce, and digital transformation services. Visit our <a href="/#services">Services</a> for more details.
+2025-08-02 07:19:27,846 - INFO - 127.0.0.1 - - [02/Aug/2025 07:19:27] "POST /chat HTTP/1.1" 200 -
+2025-08-02 07:19:30,347 - INFO - User question: How can I contact you?
+2025-08-02 07:19:30,358 - INFO - Best match: How can I contact you? (similarity: 1.000)
+2025-08-02 07:19:30,363 - INFO - Answered with: You can contact us via our <a href="/#contact">Contact Page</a>, email us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, or call us at <a href="tel:+251925663434">+251-925663434</a>.
+2025-08-02 07:19:30,363 - INFO - 127.0.0.1 - - [02/Aug/2025 07:19:30] "POST /chat HTTP/1.1" 200 -
+2025-08-02 07:19:30,745 - INFO - 127.0.0.1 - - [02/Aug/2025 07:19:30] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 07:19:31,989 - INFO - 127.0.0.1 - - [02/Aug/2025 07:19:31] "GET /analytics HTTP/1.1" 200 -
+2025-08-02 07:19:33,051 - INFO - 127.0.0.1 - - [02/Aug/2025 07:19:33] "GET / HTTP/1.1" 200 -
+2025-08-02 07:19:38,051 - INFO - User question: What is the weather like today?
+2025-08-02 07:19:38,063 - INFO - Best match: cloud (similarity: 0.227)
+2025-08-02 07:19:38,063 - INFO - No good match found
+2025-08-02 07:19:38,063 - INFO - 127.0.0.1 - - [02/Aug/2025 07:19:38] "POST /chat HTTP/1.1" 200 -
