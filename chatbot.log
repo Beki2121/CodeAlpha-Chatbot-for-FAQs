@@ -1045,3 +1045,52 @@ Trying to resume download...
 2025-08-02 10:35:50,481 - INFO - Best match: What services do you provide? (similarity: 0.978)
 2025-08-02 10:35:50,529 - INFO - Answered with: We offer web development, mobile app development, UI/UX design, cloud solutions, e-commerce, and digital transformation services. Visit our <a href="/#services">Services</a> for more details.
 2025-08-02 10:35:50,530 - INFO - 127.0.0.1 - - [02/Aug/2025 10:35:50] "POST /chat HTTP/1.1" 200 -
+2025-08-02 10:37:27,457 - INFO - 127.0.0.1 - - [02/Aug/2025 10:37:27] "GET / HTTP/1.1" 200 -
+2025-08-02 10:37:27,522 - INFO - 127.0.0.1 - - [02/Aug/2025 10:37:27] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-08-02 10:38:17,652 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:17] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:38:18,377 - INFO - User question: Hello
+2025-08-02 10:38:18,560 - INFO - Best match: contact (similarity: 0.355)
+2025-08-02 10:38:18,659 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-08-02 10:38:18,667 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:18] "POST /chat HTTP/1.1" 200 -
+2025-08-02 10:38:23,703 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:23] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:38:24,668 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:24] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:38:25,614 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:25] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:38:26,462 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:26] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:38:27,627 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:27] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:38:29,293 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:29] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:38:29,539 - INFO - User question: what services do you provide
+2025-08-02 10:38:29,691 - INFO - Best match: What services do you provide? (similarity: 0.959)
+2025-08-02 10:38:29,741 - INFO - Answered with: We offer web development, mobile app development, UI/UX design, cloud solutions, e-commerce, and digital transformation services. Visit our <a href="/#services">Services</a> for more details.
+2025-08-02 10:38:29,744 - INFO - 127.0.0.1 - - [02/Aug/2025 10:38:29] "POST /chat HTTP/1.1" 200 -
+2025-08-02 10:41:22,984 - INFO - 127.0.0.1 - - [02/Aug/2025 10:41:22] "GET / HTTP/1.1" 200 -
+2025-08-02 10:41:23,037 - INFO - 127.0.0.1 - - [02/Aug/2025 10:41:23] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
+2025-08-02 10:42:18,240 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:18] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:19,142 - INFO - User question: Hello
+2025-08-02 10:42:19,405 - INFO - Best match: contact (similarity: 0.355)
+2025-08-02 10:42:19,470 - INFO - Answered with: Reach us at <a href="mailto:berekethabtamu2121@gmail.com">berekethabtamu2121@gmail.com</a>, call <a href="tel:+251925663434">+251-925663434</a>, or use our <a href="/#contact">Contact Page</a>.
+2025-08-02 10:42:19,475 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:19] "POST /chat HTTP/1.1" 200 -
+2025-08-02 10:42:22,700 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:22] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:23,722 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:23] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:24,223 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:24] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:24,725 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:24] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:25,054 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:25] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:25,966 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:25] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:27,162 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:27] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:28,891 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:28] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:29,887 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:29] "POST /suggestions HTTP/1.1" 200 -
+2025-08-02 10:42:31,210 - INFO - User question: what services do you provide?
+2025-08-02 10:42:31,665 - INFO - Best match: What services do you provide? (similarity: 1.000)
+2025-08-02 10:42:31,742 - INFO - Answered with: We offer web development, mobile app development, UI/UX design, cloud solutions, e-commerce, and digital transformation services. Visit our <a href="/#services">Services</a> for more details.
+2025-08-02 10:42:31,751 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:31] "POST /chat HTTP/1.1" 200 -
+2025-08-02 10:42:47,948 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:47] "POST /voice-output HTTP/1.1" 200 -
+2025-08-02 10:42:48,119 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 10:42:48,296 - INFO - User question: What services do you provide?
+2025-08-02 10:42:48,649 - INFO - Best match: What services do you provide? (similarity: 1.000)
+2025-08-02 10:42:48,725 - INFO - Answered with: We offer web development, mobile app development, UI/UX design, cloud solutions, e-commerce, and digital transformation services. Visit our <a href="/#services">Services</a> for more details.
+2025-08-02 10:42:48,738 - INFO - 127.0.0.1 - - [02/Aug/2025 10:42:48] "POST /chat HTTP/1.1" 200 -
+2025-08-02 10:43:38,058 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-08-02 10:43:38,060 - INFO - 127.0.0.1 - - [02/Aug/2025 10:43:38] "POST /voice-input HTTP/1.1" 200 -
+2025-08-02 10:43:46,014 - ERROR - Voice input error: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-08-02 10:43:46,015 - INFO - 127.0.0.1 - - [02/Aug/2025 10:43:46] "POST /voice-input HTTP/1.1" 200 -
+2025-08-02 10:43:48,901 - INFO - 127.0.0.1 - - [02/Aug/2025 10:43:48] "GET / HTTP/1.1" 200 -
+2025-08-02 10:43:48,971 - INFO - 127.0.0.1 - - [02/Aug/2025 10:43:48] "[36mGET /static/chatbot.css HTTP/1.1[0m" 304 -
